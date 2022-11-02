@@ -15,12 +15,6 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
-      rel="stylesheet"
-    />
   </head>
   <body>
     <div class="page">
@@ -182,9 +176,9 @@
         </section>
         <section class="reservation">
           <h2 id="Book-a-table" class="reservation__title">Book a table</h2>
-          <div class="reservation__form form">
+          <form class="reservation__form form">
             <fieldset class="form__fieldset">
-              <p class="form__label">Name *</p>
+              <h5 class="form__label">Name *</h5>
               <input
                 class="form__input"
                 type="text"
@@ -193,8 +187,6 @@
                 placeholder="name surname"
                 required
               />
-            </fieldset>
-            <fieldset class="form__fieldset">
               <p class="form__label">Number of guests *</p>
               <input
                 class="form__input"
@@ -205,8 +197,6 @@
                 placeholder="1-8"
                 required
               />
-            </fieldset>
-            <fieldset class="form__fieldset">
               <p class="form__label">Date & time *</p>
               <input
                 class="form__input"
@@ -215,8 +205,6 @@
                 name="date"
                 required
               />
-            </fieldset>
-            <fieldset class="form__fieldset">
               <p class="form__label">Your email *</p>
               <input
                 class="form__input"
@@ -242,7 +230,7 @@
                 >I agree with the terms of use</label
               >
             </fieldset>
-          </div>
+          </form>
         </section>
         <section class="about">
           <div class="about__circle about__circle_animation_blurred"></div>
@@ -265,7 +253,7 @@
         </section>
       </main>
       <footer id="Contacts" class="footer">
-        <section class="footer__content">
+        <div class="footer__content">
           <img
             class="footer__logo"
             src="./images/practicum_logo.svg"
@@ -296,7 +284,7 @@
               </li>
             </ul>
           </div>
-        </section>
+        </div>
         <p class="footer__copyright">&copy; 2022 Dallin R Sly</p>
       </footer>
     </div>
