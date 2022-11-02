@@ -23,6 +23,9 @@
   align-items: center;
 }
 
+.form {
+}
+
 .form__fieldset {
   border: none;
 }
