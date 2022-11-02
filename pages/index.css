@@ -61,7 +61,7 @@
   max-width: 729px;
   margin-top: 202px;
   margin-left: 80px;
-  font-family: Noto Serif;
+  font-family: "Noto serif";
   font-style: italic;
   font-weight: normal;
   font-size: 60px;
@@ -189,7 +189,7 @@
 }
 
 .card__list-item {
-  font-family: Noto Serif, "Times New Roman", serif;
+  font-family: "Noto serif", "Times New Roman", "serif";
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -237,7 +237,7 @@
 }
 
 .recipes__subtitle {
-  font-family: Noto Serif;
+  font-family: "Noto serif";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -401,7 +401,7 @@
 }
 
 .about__paragraph {
-  font-family: Noto Serif;
+  font-family: "Noto serif";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
