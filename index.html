@@ -178,7 +178,7 @@
           <h2 id="Book-a-table" class="reservation__title">Book a table</h2>
           <form class="reservation__form form">
             <fieldset class="form__fieldset">
-              <h5 class="form__label">Name *</h5>
+              <label class="form__label">Name *</label>
               <input
                 class="form__input"
                 type="text"
@@ -187,7 +187,7 @@
                 placeholder="name surname"
                 required
               />
-              <p class="form__label">Number of guests *</p>
+              <label class="form__label">Number of guests *</label>
               <input
                 class="form__input"
                 type="number"
@@ -197,7 +197,7 @@
                 placeholder="1-8"
                 required
               />
-              <p class="form__label">Date & time *</p>
+              <label class="form__label">Date & time *</label>
               <input
                 class="form__input"
                 type="datetime-local"
@@ -205,7 +205,7 @@
                 name="date"
                 required
               />
-              <p class="form__label">Your email *</p>
+              <label class="form__label">Your email *</label>
               <input
                 class="form__input"
                 type="email"
@@ -218,7 +218,7 @@
             <fieldset class="form__fieldset">
               <button class="form__button">Book a table</button>
             </fieldset>
-            <fieldset class="form__fieldset">
+            <fieldset class="form__fieldset-checkbox">
               <input
                 class="form__checkbox"
                 type="checkbox"
@@ -226,9 +226,9 @@
                 id="I-agree-with-the-terms-of-use"
                 required
               />
-              <label class="form__label" for="I-agree-with-the-terms-of-use"
-                >I agree with the terms of use</label
-              >
+              <label class="form__label" for="I-agree-with-the-terms-of-use">
+                I agree with the terms of use
+              </label>
             </fieldset>
           </form>
         </section>

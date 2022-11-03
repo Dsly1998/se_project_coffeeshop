@@ -1,0 +1,50 @@
+.card {
+  box-sizing: border-box;
+  flex-basis: calc(50% - 100px);
+  max-width: 600px;
+}
+
+.card__title {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+  padding-bottom: 32px;
+  color: white;
+}
+
+.card__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.card__list-item {
+  font-family: "Noto Serif", "Times New Roman", "serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 16px;
+  display: flex;
+  color: white;
+}
+
+.card__list-item:last-child {
+  margin-bottom: 0;
+}
+
+.card__list-divider {
+  align-items: baseline;
+  display: flex;
+  flex-grow: 1;
+}
+
+.card__list-divider::after {
+  content: "";
+  min-width: 50px;
+  border-bottom: 1px solid #ffffff;
+  flex-grow: 1;
+}
