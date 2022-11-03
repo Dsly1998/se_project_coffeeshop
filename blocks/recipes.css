@@ -50,7 +50,7 @@
 }
 
 .recipes__video-caption {
-  font-family: "Inter";
+  font-family: "Inter" Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -63,7 +63,7 @@
 
 .recipes__block {
   margin-right: 40px;
-  font-family: "Inter";
+  font-family: "Inter" Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
